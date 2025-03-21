@@ -1,0 +1,300 @@
+*{
+	margin:0;
+	padding:0;
+	font-family: 'Poppins', sans-serif;
+	box-sizing:border-box;
+}
+
+.main{
+	width:1000px;
+}
+
+header.fixed-top{
+	position:fixed;
+	top:0;
+	left:0;
+	width:100%;
+	z-index:2;
+}
+
+
+:root {
+    --primary-color:#99a98f;
+    --decent-color:#d6e8db;
+    --accent-color:#fff;
+    --secondary-color: rgb(9,189,9);
+    --text-color: gray;
+}
+
+.head-image { 
+	margin-top: 140px;
+	margin-left: 20px;
+  }
+
+.head-image img {
+
+	width: 99%;        
+	height: auto;    
+	display: block;     
+	border-radius: 50px;
+}
+
+.description hr {
+	margin-top: 38px;
+	border: 3px solid black;
+}
+
+.description {
+	background-color: #2b976a;
+}
+
+.description h1 {
+	font-size: 44px;
+	margin-top: 40px;
+	padding-top: 40px;
+	text-align: center;
+}
+
+.description p {
+	margin-bottom: 20px;
+	font-family: 'Poppins';font-size: 24px;
+	padding-top: 40px;
+	text-align: center;
+	padding-bottom: 50px;
+	padding-left: 100px;
+	padding-right: 100px;
+	line-height: 2
+}
+.product-showcase {
+	margin-top: -100px;
+}
+
+.product-showcase h1 {
+	text-align: center;
+	margin-bottom: 40px;
+}
+.product-images ul {
+
+	list-style:none;
+	float:right;
+	display:flex;
+	margin:0;
+	padding:0;
+	padding-top:18px;
+
+}
+.product-images img {
+
+	display:list-item;
+	width: 20%;
+	border: 5px solid #2b976a;
+	margin-left: 75px;
+	margin-right: 10px;
+	margin-bottom: 60px;
+}
+
+.product-showcase h1 {
+	margin-top:180px ;
+}
+.button {
+	text-align: center;
+}
+
+.buy-button {
+	font-weight:bold;	
+	border-radius: 6px ;
+	background-color: #2b976a;
+	color:#131111;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-size:32px;
+	padding: 10px;
+}
+
+.buy-button:hover{
+	color:black;
+	background:#daffd1;
+	border-radius:20px;
+	transition:0.2s;
+}
+
+.product-images:hover {
+	box-shadow: #000000;
+}
+
+.random {
+	margin-top: 100px;
+	text-align: center;
+}
+
+/* FEEDBACK */
+.feedback-title {
+	background-color: rgb(9,189,9);
+	background-attachment: fixed;
+	color: black;
+	text-align: center;
+	font-size: 30px;
+	margin-left: 700px;
+	margin-right: 700px;
+	margin-top: 180px;
+	border-radius: 20px;
+}
+
+.fb-personal {
+
+	background-color: white;
+	margin-top: 30px;
+	margin-left: 500px;
+	margin-right: 500px;
+	padding: 10px;
+	border-top: 20px #000000;
+}
+.container {
+	border-radius: 20px;
+	padding: 20px;
+}
+
+.personal-details { 
+	padding:20px;
+	text-align: center;
+	border-radius: 10px;
+  }
+.personal-info {
+	width: 350px;
+	margin-left: 200px;
+	font-size: 18px;
+	font-weight: bold;
+}
+.survey legend {
+	text-align: center;
+}
+.survey {
+	margin-top: 10px;
+	border-radius: 10px;
+}
+input {
+	width: 100%; 
+	padding-right: 10px; 
+  }
+
+.first-time-radio {
+	display: flex;
+	width: 200px;
+	margin-left: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.radio-container {
+    text-align: center; 
+}
+.navigation {
+	text-align: center;
+}
+.navigation-radio {
+	display: flex;
+	width: 200px;
+	margin-left: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.improve-text {
+	text-align: center;
+}
+.improve-textbox {
+	margin-top: 20px;
+	margin-left: 100px;
+	margin-right: 100px;
+	height: 130px;
+
+}
+.satisfication {
+	text-align: center;
+	margin-left: 100px;
+	margin-right: 100px;
+}
+.satisfied-radio ul{ 
+	display:flex;
+	margin-top: 15px;
+	margin-bottom: 20px;
+}
+.recommend {
+	text-align: center;
+}
+.recommend-radio {
+	display: flex;
+	width: 200px;
+	margin-left: 300px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.updates {
+	text-align: center;
+}
+
+.update-poplist select{
+	margin-top: 10px;
+	width: 200px;
+	height: 40px;
+	border-radius: 15px;
+	text-align: center;
+	font-size: 16px;
+	margin-bottom: 20px;
+}
+.requests {
+	text-align: center;
+}
+.request-text {
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+.submit button {
+	margin-bottom: 20px;
+
+	background-color: #00884f;
+	padding: 5px;
+	font-size: 26px;
+	width: 350px;
+	margin-left: 240px;
+	border-radius: 15px;
+}
+
+/* CONTENT PAGES IN HOMEPAGE */
+
+.content-pages {
+	margin-top: 50px;
+	display: flex;
+	background-color: #00884f;
+}
+
+.content-pages div {
+	position: relative;
+	margin-left: 40px;
+	margin-right: 40px;
+	margin-bottom: 30px;
+	margin-top: 30px;
+}
+
+.content-pages div:hover {
+	transform: scale(1.05);
+	margin-bottom: 30px;
+	border-radius: 15px;
+
+}
+.content-pages img {
+	width: 390px;
+	height: 500px;
+	margin-left: 5px;
+	border-radius: 40px;
+}
+
+.pic-text {
+	
+	margin-left: 15px;
+	color: #fdfdfd;
+	bottom: 20px;
+	position: absolute;
+	text-shadow:2px 4px #000000;
+
+}

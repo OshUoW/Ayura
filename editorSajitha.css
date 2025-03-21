@@ -1,0 +1,75 @@
+body{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
+    /* background-color: whitesmoke; */
+    font-family: 'Poppins', sans-serif;
+    background-image: url('img/without middle.png');
+    /* Cover the entire page */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+
+    /* Fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* Ensure the content has a minimum height to cover full screen */
+    min-height: 100vh;
+
+    /* Additional styles to ensure the text stands out over the background image */
+    color: b;
+    text-shadow: 1px 1px 2px black;
+}
+
+p{
+    font-size: large;
+}
+
+hr{
+    width: 40%;
+    height: 3px;
+    /* border: none; */
+    background-color: #0BB80F;  
+}
+
+h1,h2{
+    /* background-color: white; */
+    width: 50%;
+    /* align-content: justified; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #136D13 ;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-picker{
+    text-align: center;
+   
+}
+
+#color-picker {
+    margin-top: 4px;
+    border: none;
+    padding: 0;
+}

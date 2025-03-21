@@ -1,0 +1,32 @@
+/* FOOTER */
+.site-footer {
+	text-align: center;
+	border-top: 5px solid green;
+	margin-top: 50px;
+	background-color: rgb(56, 53, 53); /* Dark background */
+	color: white;          
+	padding: 20px 10px;      
+  } 
+.site-footer p {
+	margin-top: 5px;
+
+}
+.site-footer h4 {
+	margin-bottom: 5px;
+}
+.site-footer hr{
+	margin-bottom: 15px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.site-footer ul{ 
+	list-style:none;
+	display:flex;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+.site-footer ul li {
+	padding-left: 10px;
+}

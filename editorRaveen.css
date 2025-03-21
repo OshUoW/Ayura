@@ -1,0 +1,58 @@
+body{
+    text-align: center;
+    font-family: 'Poppins', sans-serif;
+	background-image: url('img/without\ middle.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    min-height: 100vh;
+}
+
+p{
+    font-size: large;
+}
+
+hr{
+    width: 40%;
+    height: 3px;
+    background-color: #0BB80F;  
+}
+
+h1,h2{
+    /* background-color: white; */
+    width: 100%;
+    /* align-content: justified; */
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+h1{
+    font-size: 60px;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #136D13 ;
+}
+
+.container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.color-picker{
+    text-align: center;
+   
+}
+
+#color-picker {
+    margin-top: 4px;
+    border: none;
+    padding: 0;
+}
+

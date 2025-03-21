@@ -1,0 +1,114 @@
+body{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+header{
+    position: relative;
+    left:0;
+    top: 0;
+    width: 100%;
+    height: 80px;
+}
+header h4{
+    position: absolute;
+    left:10%;
+    bottom: 1rem;
+    font-size: 1.6rem;
+}
+
+/* Splash screen */
+.intro{
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100vh;
+    background-color: #161616;
+    transition: 1s;
+
+}
+.logo-header{
+    position:absolute;
+    top:40%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    color:black;
+
+
+}
+.logo{
+    position: relative;
+    display: inline-block;
+    bottom: -20px;
+    opacity:0;
+    text-align: justify;
+}
+.logo.active{
+    bottom:0;
+    opacity: 1;
+    transition: ease-in-out 0.5s;
+
+}
+.logo.fade{
+    bottom: 150px;
+    opacity: 0;
+    transition: ease-in-out 0.5s;
+    
+}
+.intro {
+    /* The URL to the image */
+    background-image: url('images/without middle.png');
+
+    /* Cover the entire page */
+    background-size: cover;
+
+    /* Center the background image */
+    background-position: center;
+
+    /* Do not repeat the image */
+    background-repeat: no-repeat;
+
+    /* Fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+    background-attachment: fixed;
+
+    /* Ensure the content has a minimum height to cover full screen */
+    min-height: 100vh;
+
+    /* Additional styles to ensure the text stands out over the background image */
+    color: black;
+    text-shadow: 1px 1px 2px black;
+}
+#members{
+    text-align: center;
+    padding-bottom: px;
+}
+.logo{
+    font-weight: 300;
+     
+}
+
+#image-logo{
+    padding-left: 200px;
+    padding-top: 100px;
+}
+
+.loader-image{
+    padding-top: 300px;
+    padding-left: 45%;
+}
+/* loader image animations */
+@keyframes loader{
+    from{
+        transform: rotate(0turn);
+    }to{
+        transform: rotate(1turn);
+    }
+    
+}
+.loader{
+    animation: loader 0.5s ease infinite;
+
+}

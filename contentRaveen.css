@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    text-decoration: none;
+}
+
+body {
+    background-image: url('img/without\ middle.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* Header and Nav Styles */
+header {
+    position: fixed;
+    width: 100%;
+    z-index: 2;
+    background-color: var(--accent-color);
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+/* Cover Section Enhancements */
+.cover {
+    background-image: url('img/cover.jpg');
+    height: 30vh;
+    margin-top: 100px;
+    border-radius: 0; /* Full width */
+  
+}
+
+.cover--overlay { 
+    padding-left: 600px ;
+    padding-top: 100px;
+    
+}
+
+/* Slogan and Titles */
+h1, h3 {
+    color: var(--accent-color);
+    text-shadow: 1px 1px 5px rgba(0,0,0,0.7);
+     
+} 
+
+/* Section Styling */
+.section--1, .section--2 {
+    margin: 20px 50px; /* Uniform margin */
+    padding: 20px;
+    background-color: var(--decent-color);
+    border: 1px solid #ddd; /* Subtle border */
+    box-shadow: 2px 2px 10px rgba(0,0,0,0.1); /* Soft shadow */
+}
+
+.section--1:hover, .section--2:hover {
+    transform: scale(1.02);
+    box-shadow: 3px 3px 15px rgba(0,0,0,0.2);
+}
+
+/* Footer Enhancements */
+footer {
+    background-color: var(--primary-color);
+    color: var(--accent-color);
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer a {
+    color: var(--accent-color);
+    transition: color 0.3s ease;
+}
+
+footer a:hover {
+    color: var(--secondary-color);
+}
+
+/* Responsiveness */
+@media (max-width: 768px) {
+    .cover {
+        height: 50vh;
+    }
+
+    nav ul {
+        flex-direction: column;
+    }
+
+    .section--1, .section--2 {
+        margin: 20px; /* Adjust for smaller screens */
+    }
+}

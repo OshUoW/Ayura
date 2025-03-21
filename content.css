@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800&display=swap');
+:root {
+    --primary-color:#99a98f;
+    --decent-color:#d6e8db;
+    --accent-color:#fff;
+    --secondary-color: rgb(9,189,9);
+    --text-color: gray;
+
+}
+*{
+    margin:0;
+    padding:0;
+    outline: none;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+}
+body {
+    background:#fff;
+    
+     /* The URL to the image */
+     background-image: url('images/without middle.png');
+
+     /* Cover the entire page */
+     background-size: cover;
+ 
+     /* Center the background image */
+     background-position: center;
+ 
+     /* Do not repeat the image */
+     background-repeat: no-repeat;
+ 
+     /* Fixed in the viewport so that it doesn't move when the content's height is greater than the image's height */
+     background-attachment: fixed;
+ 
+     /* Ensure the content has a minimum height to cover full screen */
+     min-height: 100vh;
+     opacity: 1;
+     
+ 
+     /* Additional styles to ensure the text stands out over the background image */
+     color: black;
+     text-shadow: 1px 1px 2px black; }
+ 
+/* cover section */
+.cover{
+    background-image: url('images/good health and well being .jpg');
+    background-size: cover;
+    height: 60vh;
+    background-position: center;
+    border-radius: 10px;
+    margin-top: 10%;
+     
+
+}
+.cover--overlay{
+    background: rgba(0,0,0,0.6);
+    height: 100%;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    border-radius: 10px;
+}
+ 
+.slogan{
+    font-size: 15px;
+}
+.section--1 {
+    display: flex;
+    margin: 20px;
+    padding: 5px;
+    background-color: var(--decent-color);
+    border-radius: 15px;
+    transition: 1s;
+  }
+  .section--1:hover{
+    scale: 101%;
+    border-radius: 15px;
+    box-shadow: 5px 5px 20px rgb(9,189,9);
+  }
+  .section--1 img {
+    height: 300px;
+    width: 500px;
+    border-radius: 10px;
+  }
+p{
+    padding-top: 10px;
+    padding-left: 10px;
+}
+h3{
+    padding-left: 10px;
+}
+.image-bar{
+padding: 0.4%;
+}

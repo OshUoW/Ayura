@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="styles.css">
+<link rel="stylesheet" href="nav1.css">
+<link rel="stylesheet" href="footer.css">
+
+<link href='https://fonts.googleapis.com/css?family=Poppins' rel='stylesheet'>
+<title>Ayura</title>
+
+</head>
+
+<!-- <style>
+    body {
+	background-image: url('img/without\ middle.png');
+    background-size: cover; 
+    background-repeat: no-repeat; 
+    background-position: center;
+    background-attachment: fixed;
+    overflow-y: scroll; 
+   } 
+</style> -->
+
+<body>
+
+    <header class = "fixed-top"> 
+        <nav> 
+            <div class = "logo">
+                <a href="home.html"> <img src="img/ayura-logo.png" alt="Ayura Logo"> </a>
+            </div>
+            <ul>
+                <li>  <a href="home.html" > HOME </a>  </li>
+                <li>  <a href="shop.html" > SHOP </a>  </li>
+                <li>  <a href="gallery.html" > GALLERY </a>  </li>
+                <li>  <a href="feedback.html" class="active" > FEEDBACK </a>  </li>
+                <li>  <a href="team.html"> ABOUT US </a>  </li>
+                <li>  <a href="profile.html" > PROFILE </a>  </li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="feedback-title">
+        <h1>Feedback</h1>
+    </div>
+    <div class ="fb-personal">
+
+    <form id="formid" action="mailto:raveebay02@gmail.com" method="post" enctype="text/plain" >
+        <fieldset class="container">
+            
+            <fieldset class="personal-details">
+                <legend><h3>Please enter your details</h3></legend>
+                <div class ="personal-info">
+                    <div class="full-name">
+                        <label for="full_name">Full Name</label><br>
+                        <input type="text" name="name" id="name" required><br>
+                    </div>
+
+                    <div class="fb-email">
+                        <label for="email">Email</label><br>
+                        <Input type="text"  name="email" id="email" required><br>
+                    </div>
+
+                    <div class="fb-number">
+                        <label for="phone">Phone Number</label><br>
+                        <input type="tel" name="phone" id="phone" required>
+                        <div id="phoneError" class="error hidden">Please enter a valid 10-digit phone number</div> 
+                    </div>
+                </div>
+            </fieldset>
+
+            <fieldset class="survey">
+                <legend> <h3>Survey</h3></legend>
+                <div class="radio-container"> <h3>Is this your first time visiting?</h3>
+                    <div class="first-time-radio">
+                        <input type="radio" name="visit" id="y" value="y">
+                        <label for="y">Yes</label>
+                        <input type="radio" name="visit" id="n" value="n">
+                        <label for="n">No</label>
+                    </div>
+                </div>
+
+                <div class="navigation"> <h3>Was this website easy to nagivate?</h3>
+                    <div class="navigation-radio">
+                        <input type="radio" name="nav-radio" id="nav-yes" value="yes">
+                        <label for="y">Yes</label>
+                        <input type="radio" name="nav-radio" id="nav-no" value="no">
+                        <label for="n">No</label>
+                    </div>
+                </div>
+
+                <div class="improve-text">
+                    <h3> If "No" , suggest any improvement for the future</h3>
+                    <div  class="improve-textbox">
+                        <textarea name="future improvement" id="future-improvement" rows="5" cols="80"></textarea>
+                    </div>
+                </div>
+
+                <div class="satisfication"> <h3>How satisfied are you with Our services? Choose from 0 to 10, with 1 being "Not satisfied!" and 10 being "Highly Satisfied!"</h3>
+                    <div class="satisfied-radio">
+                        <ul>
+                            
+                            <input type="radio" name="rate" id="rate" value="1">
+                            <label for="1">1</label>
+
+                            <input type="radio" name="rate" id="rate" value="2">
+                            <label for="2">2</label>
+
+                            <input type="radio" name="rate" id="rate" value="3">
+                            <label for="3">3</label>
+
+                            <input type="radio" name="rate" id="rate" value="4">
+                            <label for="4">4</label>
+
+                            <input type="radio" name="rate" id="rate" value="5">
+                            <label for="5">5</label>
+
+                            <input type="radio" name="rate" id="rate" value="6">
+                            <label for="6">6</label>
+
+                            <input type="radio" name="rate" id="rate" value="7">
+                            <label for="7">7</label>
+
+                            <input type="radio" name="rate" id="rate" value="8">
+                            <label for="8">8</label>
+
+                            <input type="radio" name="rate" id="rate" value="9">
+                            <label for="9">9</label>
+
+                            <input type="radio" name="rate" id="rate" value="10">
+                            <label for="10">10</label>
+
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="recommend"> <h3>Would you recommend our services?</h3>
+                    <div class="recommend-radio">
+                        <input type="radio" name="recommend" id="yes" value="yes">
+                        <label for="y">Yes</label>
+                        <input type="radio" name="recommend" id="no" value="no">
+                        <label for="n">No</label>
+                    </div>
+                </div>
+
+                <div class="updates"> <h3> * Would you like to receive updates about the website and any offers?</h3>
+                    <div class="update-poplist">
+                        <select name="updates" id="updates" required>
+                            <option value="" disabled selected>Select an option</option>
+                            <option value="yes-via-email">Yes - via Email</option>
+                            <option value="yes-via-phone">Yes - via Phone</option>
+                            <option value="no">No</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="requests"> <h3>Do you have any additional quesitons or requests?</h3>
+                    <div class="request-text">
+                        <textarea name="request" id="request" rows="5" cols="80"></textarea>
+                    </div>
+                </div>
+                
+                <div class="submit">
+                    <button type="submit" name="submit" id ="submit" value="submit">Submit</button>
+                </div>
+
+            </fieldset>
+        </fieldset>
+    </form>
+
+</div>
+
+
+
+<footer class="site-footer">
+    <h3>© 2024 Ayura</h3>
+    <p> Embrace the Power of Natural  Healing</p>
+    <ul>   
+        <li>  <a href="editorSenuda.html" target="blank" style="color: rgba(72, 255, 0, 0.685);"> SENUDA </a>  </li>  
+        <li>  <a href="editorRaveen.html" target="black" style="color: rgba(72, 255, 0, 0.685);"> RAVEEN </a>  </li>  
+        <li>  <a href="editorSajitha.html" target="blank" style="color: rgba(72, 255, 0, 0.685);"> SAJITHA </a>  </li>  
+        <li>  <a href="editorOshani.html" target="blank" style="color: rgba(72, 255, 0, 0.685);"> OSHANI </a>  </li>  
+    </ul>  
+    <hr>
+    <p>Designed By: <a href="editorRaveen.html" style="color: rgba(72, 255, 0, 0.568);">Raveen Gamachchige</a></p>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>

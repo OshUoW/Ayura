@@ -1,0 +1,254 @@
+* {
+    margin: 0;
+    padding: auto;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    background: #eaeaea;
+    background-image: url('without\ middle.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    min-height: 100vh;
+    color: black ;
+    }
+
+/* navbar styles */
+
+.logo {
+    display: inline-block;
+    /* Make it behave as a block element within the line  */
+    padding: 10px;
+    /* Add padding around logo and text */
+    left: 200px;
+}
+
+.logo img {
+    max-height: 80px;
+    margin-left: 50px;
+    vertical-align: middle;
+}
+
+
+.content-below-header {
+    margin-top: 60px;
+}
+
+nav {
+    background-color: #FCFCF6;
+    border-bottom: 3px solid green;
+    
+
+}
+
+nav ul {
+    list-style: none;
+    float: right;
+    display: flex;
+    margin: 0;
+    padding: 0;
+    padding-top: 18px;
+}
+
+nav ul li a {
+    color: #077245;
+    text-decoration: none;
+    padding: 12px 40px;
+    line-height: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    text-transform: uppercase;
+    border-radius: 2px;
+
+}
+
+nav ul li a:hover {
+    color: black;
+    background: #3ce41b;
+    border-radius: 50px;
+    transition: 0.2s;
+}
+
+nav ul li a:active {
+    background: #d6e8db;
+    color: #000000;
+    border-radius: 20px;
+}
+
+nav ul li a.active {
+    border-bottom: 3px solid green;
+    color: #000000;
+
+}
+ /* Cover image styles */
+.cover {
+    background-image: url('cover.jpg');
+    background-size: cover;
+    height: 55vh; 
+    width: 70vw;
+    background-position: center;
+    border-radius: 10px;
+    margin: auto; 
+    margin-top: 70px;
+    align-items: center;
+    justify-content: center; 
+}
+
+.cover--overlay {
+    background: rgba(0, 0, 0, 0.4);
+    height: 100%;
+    width: 100%;
+    color: var(--accent-color);
+    display: flex;
+    align-items: center; 
+    flex-direction: column;
+    justify-content: left; 
+    border-radius: 10px;
+    box-shadow: 0 0 10px #136D13;
+    padding-left: 50px; 
+}
+
+
+.slogan {
+
+    font-size: 25px; 
+    position: absolute;
+    top: 50%;
+    left: 17%; 
+    width: 90%; 
+    text-align: left;
+    color: white;
+
+}
+
+.topic{
+
+    color: #3ce41b;
+    font-size: 45px; 
+    position: absolute;
+    top: 30%;
+    left: 17%; 
+    width: 50%;
+    text-align: left;
+    font-weight: bold;
+
+}
+
+/* styles used for content */
+p{
+    font-size: large;
+}
+
+h1{
+    color: #136D13;
+    font-size: 50px;
+}
+
+.content1{
+    margin-top: 50px;
+    align-items: center;
+    text-align: center;
+    font-weight: 500px;
+    
+}
+
+.imgsection1 {
+    background-image: url('sick1.jpg');
+    background-size: cover;
+    height: 55vh; 
+    width: 50vw;
+    background-position: center;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 25px;
+    align-items: center; 
+    justify-content: center;
+}
+
+.main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 25px;
+}
+.section--1 {
+    
+    height: 45vh; 
+    width: 50vw;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    width: 90%; 
+    margin: 0 auto; 
+    text-align: left;
+    
+  }
+  
+  .section--1 img {
+    margin-right: 20px; 
+}
+
+.section--1 .info {
+    padding-left: 30px; 
+    padding: 5;
+}
+
+/* Opacity hover effect */
+.section--1 img {
+    transition: opacity 0.3s ease;
+    opacity: 1; 
+}
+
+.section--1 img:hover {
+    opacity: 0.8; 
+}
+
+.section--1 img {
+    transition: border 0.3s ease;
+    border: 4px solid transparent;
+}
+
+.section--1 img:hover {
+    border: 4px solid #3ce41b; 
+}
+
+.main{
+    text-align: center;
+}
+
+/* FOOTER */
+.site-footer {
+	text-align: center;
+	border-top: 5px solid green;
+	margin-top: 50px;
+	background-color: rgb(56, 53, 53); /* Dark background */
+	color: white;          
+	padding: 20px 10px;      
+  } 
+.site-footer p {
+	margin-top: 5px;
+
+}
+.site-footer h4 {
+	margin-bottom: 5px;
+}
+.site-footer hr{
+	margin-bottom: 15px;
+	margin-left: 200px;
+	margin-right: 200px;
+}
+
+.site-footer ul{ 
+	list-style:none;
+	display:flex;
+	margin-top: 5px;
+	margin-bottom: 10px;
+	justify-content: center;
+}
+.site-footer ul li {
+	padding-left: 10px;
+}
